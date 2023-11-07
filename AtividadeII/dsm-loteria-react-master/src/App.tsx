@@ -1,10 +1,12 @@
 import { Provider } from "./contexts";
-import Principal from "./pages/Principal";
+import Rotas from "./Routes";
+//import Principal from "./pages/Principal";
+
 
 export default function App() {
   return (
     <Provider>
-      <Principal />
+      <Rotas />
     </Provider>
   );
 }

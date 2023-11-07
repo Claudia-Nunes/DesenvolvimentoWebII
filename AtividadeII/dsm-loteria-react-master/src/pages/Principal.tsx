@@ -1,8 +1,6 @@
-import Lotofacil from "../components/Lotofacil";
-import Megasena from "../components/Megasena";
-import Quina from "./Quina";
-import { useLoteria } from "../hooks";
+import { useLoteria } from "../hooks/index";
 import "./index.css";
+
 
 export default function Principal() {
   const { megasena } = useLoteria();
@@ -11,9 +9,7 @@ export default function Principal() {
     <>
       {megasena.dataApuracao ? (
         <div className="principal-bloco">
-          <Megasena />
-          <Lotofacil />
-          <Quina />
+          <h1>Ola</h1>
         </div>
       ) : (
         <div className="principal-carregando">

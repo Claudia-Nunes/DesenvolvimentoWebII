@@ -1,9 +1,11 @@
 import { LoteriaProps } from "../types";
 import api from "./api";
 
+
 class Loteria {
-    async get(): Promise<LoteriaProps> {
+    async get() :Promise<LoteriaProps> {
         const {data} = await api.get("/");
+        console.log("ff",data);
         return data;
     }
 }
