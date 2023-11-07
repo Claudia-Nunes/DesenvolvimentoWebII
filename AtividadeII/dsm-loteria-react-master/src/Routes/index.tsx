@@ -10,7 +10,7 @@ export default function Rotas() {
     <BrowserRouter>
         <Menu />
         <Routes>
-        <Route path="/" element={<Megasena />} />
+        <Route path="*" element={<Erro />} />
         <Route path="megasena" element={<Megasena />} />
         <Route path="lotofacil" element={<Lotofacil />} />
         <Route path="quina" element={<Quina />} />
