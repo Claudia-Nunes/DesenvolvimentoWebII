@@ -1,0 +1,10 @@
+a:visited, a:link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+body{
+    font-family: roboto;
+}
