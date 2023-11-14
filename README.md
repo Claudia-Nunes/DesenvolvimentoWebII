@@ -29,6 +29,10 @@ O projeto está organizado de forma clara para facilitar a manutenção e extens
   - **App.js:** Configuração de rotas e componentes principais.
   - **index.js:** Ponto de entrada do aplicativo.
 - **/public:** Arquivos públicos.
+- ![timemania](https://github.com/Claudia-Nunes/DesenvolvimentoWebII/assets/104475381/5afb2149-a392-43ec-82f5-2b9101b3714b)
+![quina](https://github.com/Claudia-Nunes/DesenvolvimentoWebII/assets/104475381/13b2a3b4-3030-40fd-9be2-29b088826aec)
+![megasena](https://github.com/Claudia-Nunes/DesenvolvimentoWebII/assets/104475381/59f752d2-a4c2-4809-9b2b-2815844922e0)
+
 
 ## Como Executar o Projeto
 
